@@ -1,0 +1,13 @@
+substreams_yaml_path: ./ethereum-shibaswap-v2.yaml
+protocol_system: "shibaswap_v2"
+protocol_type_names:
+  - "shibaswap_v2_pool"
+module_name: "map_pool_events"
+skip_balance_check: true
+initialized_accounts:
+tests:
+  # Tests will be added once we identify actual Shibaswap V2 pools
+  - name: test_shibaswap_pool
+    start_block: 21036458
+    stop_block: 21036460
+    expected_components: []
