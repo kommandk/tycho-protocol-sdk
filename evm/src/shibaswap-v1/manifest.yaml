@@ -1,0 +1,24 @@
+# information about the author helps us reach out in case of issues.
+author:
+  name: Alan
+  email: alan@propellerheads.xyz
+
+# Protocol Constants
+constants:
+  protocol_gas: 30000
+  # minimum capabilities we can expect, individual pools may extend these
+  capabilities:
+    - SellSide
+    - BuySide
+    - PriceFunction
+
+# The file containing the adapter contract
+contract: ShibaswapV1SwapAdapter.sol
+
+# Deployment instances used to generate chain specific bytecode.
+instances:
+  - chain:
+      name: mainnet
+      id: 1
+    arguments:
+      - "0x115934131916C8b277DD010Ee02de363c09d037c"
