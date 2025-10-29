@@ -1,0 +1,8 @@
+substreams_yaml_path: ./shibarium-shibaswap-v1.yaml
+protocol_system: "shibaswap_v1"
+protocol_type_names:
+  - "shibaswap_v1_pool"
+module_name: "map_pool_events"
+skip_balance_check: false
+initialized_accounts:
+tests:
