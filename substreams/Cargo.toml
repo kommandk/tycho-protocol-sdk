@@ -17,6 +17,8 @@ members = [
     "ethereum-ekubo-v2",
     "ethereum-maverick-v2",
     "ethereum-balancer-v3",
+    "shibarium-shibaswap-v1",
+    "shibarium-shibaswap-v2",
 ]
 resolver = "2"
 
@@ -24,3 +26,6 @@ resolver = "2"
 lto = true
 opt-level = 's'
 strip = "debuginfo"
+
+[profile.substreams]
+inherits = "release"
