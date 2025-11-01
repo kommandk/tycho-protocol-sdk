@@ -1,0 +1,21 @@
+substreams_yaml_path: ./ethereum-shibaswap-v1.yaml
+protocol_system: "shibaswap_v1"
+protocol_type_names:
+  - "shibaswap_v1_pool"
+module_name: "map_pool_events"
+skip_balance_check: false
+initialized_accounts:
+tests:
+  # Add specific test cases here when needed
+  # - name: test_example_pool
+  #   start_block: <block_number>
+  #   stop_block: <block_number>
+  #   expected_components:
+  #     - id: "<pool_address>"
+  #       tokens:
+  #         - "<token0_address>"
+  #         - "<token1_address>"
+  #       static_attributes:
+  #         fee: "0x1e"
+  #       creation_tx: "<transaction_hash>"
+  #       skip_simulation: false

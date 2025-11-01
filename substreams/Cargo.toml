@@ -20,6 +20,7 @@ members = [
     "ethereum-ekubo-v2",
     "ethereum-maverick-v2",
     "ethereum-balancer-v3",
+    "ethereum-shibaswap-v1",
 ]
 resolver = "2"
 
