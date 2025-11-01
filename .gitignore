@@ -10,6 +10,7 @@ target/
 */.env
 .vscode
 .idea
+.cursor/
 *.log
 
 __pycache__
